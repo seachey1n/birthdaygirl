@@ -1,0 +1,63 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensures the buttons are vertically centered */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Neat and minimalistic font */
+    
+    background-image: url('giphy_s.gif'); /* Replace with the path or URL to your background GIF */
+    background-repeat: repeat; /* Set to repeat the background */
+    background-size: auto; /* Use the original size of the background image */
+    background-position:inherit/* Center the background image */
+       
+  }
+  
+  .header {
+    background-color: #ff9accde; /* Pink color for the header */
+    color: rgb(53, 34, 34);
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Neat and minimalistic font */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+  .button-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 20px; /* Adjust the gap as needed */
+    justify-content: center; /* Align buttons to center */
+    padding: 15px 30px;
+  }
+  
+  .myButton {
+    background-color: #ff69b4; /* Pink color */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: background-color 0.3s ease;
+  }
+  
+  .myButton:hover {
+    background-color: #d04083; /* Darker shade of pink on hover */
+  }
+  
+  .myButton.clicked {
+    background-color: #d04083; /* Darker shade of pink when clicked */
+  }
+  
+  
+  .myButton:focus {
+    outline: none;
+  }
+  
+  .images1 {
+    width: 90px; /* Adjust the width as needed */
+    height: 90px; /* Adjust the height as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
